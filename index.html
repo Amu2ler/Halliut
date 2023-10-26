@@ -1,11 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
+    
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Halliut - Accueil</title>
+    <title>Accueil</title>
+    <link rel="stylesheet" type="text/css" href="styles/style_home.css">
+    <script src="js/home.js"></script>
+    <link rel="icon" href="">
 </head>
+
 <body>
-    
+
+    <video id="background-video" autoplay loop muted>
+        <source src="halloween4.mp4" type="video/mp4">
+    </video>
+
+    <div class="nav">
+        <ul>
+            <li><a class="" href="">Ecommerce</a></li>
+            <li><a class="" href="">Shop</a></li>
+            <li><a class="" href="">Stories</a></li>
+            <li><a class="" href="">About</a></li> 
+            <li><img id="loupe" src="loupe-transparent.png" alt="loupe">  <input type="search" id="site-search" name="recherche" placeholder="Rechercher">
+        </ul>
+    </div>
+
+    <a href="" id="">
+        <span class="burger-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
+    </a>
+
+    <div class="texte">
+        <h1>
+            <strong>
+            Better clothing for the planet
+            </strong>
+        </h1>
+        <div class="description">  
+            <p>
+                Create screens directly in Method or add your images from Sketch 
+            <br>    
+                or Figma. You can even sync designs from your cloud storage!
+            </p>
+        </div>  
+        <button id="btn-accueil" href="">
+            <strong>
+            Shop All
+            </strong>
+        </button>
+    </div>
+    <div id="slider">
+        <img id="image-1" src="fondgris.jpg" alt="fond gris" id="slide">
+        <div id="precedent" onclick="ChangeSlide(-1)"><</div>
+        <div id="suivant" onclick="ChangeSlide(1)">></div>
+    </div>
+
+    <div class="sponsors">
+        <img src="" alt="" id="">
+        <img src="" alt="" id="">
+        <img src="" alt="" id="">
+        <img src="" alt="" id="">
+    </div>
 </body>
+
+
 </html>
