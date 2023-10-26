@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link href="projet.css" rel="stylesheet" type="text/css">
+    <title>Halloween</title>
+</head>
+<body>
+
+    <div class="container">
+        <div id ="container_image">
+            <div class="slider">
+                <div class="images">
+                    <input type="radio" name="slide" id="img1">
+                    <input type="radio" name="slide" id="img2">
+                    <input type="radio" name="slide" id="img3">
+                    <img src="jack.jpg" class="m1" alt="img1">
+                    <img src="jack1.jpg" class="m2" alt="img2">
+                    <img src="jack3.jpeg" class="m3" alt="img3">
+                    
+                </div>
+                <div class="dots">
+                    <label for="img1"></label>
+                    <label for="img2"></label>
+                    <label for="img3"></label>
+                </div>
+            </div>
+        <div class="container_texte">
+            <div>
+                <h1>Jocker Top and Mask</h1>
+                <h3><strong>35 $</strong></h3>
+                <p>
+                  Get ready for an epic Halloween night <br>
+                  With this set <br>
+                </p>
+            </div>  <br>             
+            <div class="container_input">
+                <input class="qte" type="number" id="tentacles" name="tentacles"min="1" max="1000"><br>
+                <form>
+                    <select class="select" name="type" id="type">
+                        <option value="taille">Selectionner une taille</option>
+                        <option value="XS">XS</option>
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                        <option value="XL">XL</option>
+                        <option value="2XL">2XL</option>
+                        <option value="3XL">3XL</option>
+                    </select>
+                </form>
+            </div><br>
+        <div class="Box">
+            <div>
+                <input class="panier" type="submit" value="Add To Cart">
+                <input class="payer" type="submit" value="Buy Now">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
