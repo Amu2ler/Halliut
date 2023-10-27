@@ -4,17 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <title>Accueil</title>
-    <link rel="stylesheet" type="text/css" href="/styles/style_home.css">
-    <script src="js/home.js"></script>
+    <link rel="stylesheet" type="text/css" href="/styles/home.css">
     <link rel="icon" href="">
 </head>
 
 <body>
 
     <video id="background-video" autoplay loop muted>
-        <source src="halloween4.mp4" type="video/mp4">
+        <source src="/img/halloween4.mp4" type="video/mp4">
     </video>
 
+<<<<<<< HEAD
     <div class="nav">
         <ul>
             <li><a class="" href="">Ecommerce</a></li>
@@ -22,48 +22,130 @@
             <li><a class="" href="">Stories</a></li>
             <li><a class="" href="">About</a></li> 
             <li><img id="loupe" src="/img/loupe.jpg" alt="loupe">  <input type="search" id="site-search" name="recherche" placeholder="Rechercher">
+=======
+    <nav class="navbar dark"> 
+        <div class="nav-div">      
+          <svg class="menu-burger" xmlns="http://www.w3.org/2000/svg" width="30" height="50" viewBox="0 0 30 30" fill="currentColor"><path d="M 3 7 A 1.0001 1.0001 0 1 0 3 9 L 27 9 A 1.0001 1.0001 0 1 0 27 7 L 3 7 z M 3 14 A 1.0001 1.0001 0 1 0 3 16 L 27 16 A 1.0001 1.0001 0 1 0 27 14 L 3 14 z M 3 21 A 1.0001 1.0001 0 1 0 3 23 L 27 23 A 1.0001 1.0001 0 1 0 27 21 L 3 21 z"></path></svg>
+          <a class="logo bold " href="#">Ecommerce</a>
+          <ul class="nav_ul_link ">  
+            <li class="nav-links"><a class="" href="/pages/produit.html">Shop</a></li>
+            <li class="nav-links"><a class="" href="#">Stories</a></li>
+            <li class="nav-links"><a class="" href="#">About</a></li>
+            <li class="nav-search"> 
+                <button class="" type="submit">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"  fill="currentColor" class="search_icon" viewBox="0 0 16 16">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                    </svg>
+                </button>
+            
+                <input class="input-search" type="text" placeholder="Search" aria-label="">
+            </li>
+          </ul>
+        </div>
+        <ul class="responsive-nav">
+          <li class="nav-links nav-content">
+            <a class="" href="#">
+              <svg class="" width="16" height="16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 208.955 208.955" fill="currentColor" >
+              <path d="M190.85,200.227L178.135,58.626c-0.347-3.867-3.588-6.829-7.47-6.829h-26.221V39.971c0-22.04-17.93-39.971-39.969-39.971
+                C82.437,0,64.509,17.931,64.509,39.971v11.826H38.27c-3.882,0-7.123,2.962-7.47,6.829L18.035,200.784
+                c-0.188,2.098,0.514,4.177,1.935,5.731s3.43,2.439,5.535,2.439h157.926c0.006,0,0.014,0,0.02,0c4.143,0,7.5-3.358,7.5-7.5
+                C190.95,201.037,190.916,200.626,190.85,200.227z M79.509,39.971c0-13.769,11.2-24.971,24.967-24.971
+                c13.768,0,24.969,11.202,24.969,24.971v11.826H79.509V39.971z M33.709,193.955L45.127,66.797h19.382v13.412
+                c0,4.142,3.357,7.5,7.5,7.5c4.143,0,7.5-3.358,7.5-7.5V66.797h49.936v13.412c0,4.142,3.357,7.5,7.5,7.5c4.143,0,7.5-3.358,7.5-7.5
+                V66.797h19.364l11.418,127.158H33.709z"/>
+              </svg>3</a>
+          </li>
+          <li class="nav-login"><a class="" href="#">Login</a></li>
+>>>>>>> 20a03e98c40a5ac5ba7b26f8a3b979c4a2aa409c
         </ul>
-    </div>
-
-    <a href="" id="">
-        <span class="burger-icon">
-          <span></span>
-          <span></span>
-          <span></span>
-        </span>
-    </a>
+            </nav>
+        <div class="vide"></div>
 
     <div class="texte">
         <h1>
             <strong>
-            Better clothing for the planet
+            Épouvantez avec style
             </strong>
         </h1>
         <div class="description">  
             <p>
-                Create screens directly in Method or add your images from Sketch 
-            <br>    
-                or Figma. You can even sync designs from your cloud storage!
+                Transformez vos rêves en cauchemars 
+                <br>
+                avec nos costumes d'Halloween de qualité !
             </p>
         </div>  
-        <button id="btn-accueil" href="">
+        <button id="btn-accueil" href="/pages/produit.html">
             <strong>
             Shop All
             </strong>
         </button>
     </div>
     <div id="slider">
-        <img id="image-1" src="fondgris.jpg" alt="fond gris" id="slide">
-        <div id="precedent" onclick="ChangeSlide(-1)"><</div>
-        <div id="suivant" onclick="ChangeSlide(1)">></div>
+        <img id="image-1" src="/img/deguisements.jpg" alt="fond gris" id="slide">
     </div>
 
     <div class="sponsors">
-        <img src="" alt="" id="">
-        <img src="" alt="" id="">
-        <img src="" alt="" id="">
-        <img src="" alt="" id="">
+        <img src="/img/sponso1.png" alt="sponso 1" id="sponso1">
+        <img src="/img/sponso2.png" alt="sponso 2" id="sponso2">
+        <img src="/img/sponso3.png" alt="sponso 3" id="sponso3">
+        <img src="/img/sponso4.png" alt="sponso 4" id="sponso4">
     </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+    
+            <div class="sign_footer">
+                <h1 class="">Sign up for our newsletter</h1>
+                <p class="white">Be the first to know about our special offers, new product launches,and evetns</p>
+                <div class="">
+                  <div class="champ">
+                  <input id="newsletter1" type="text" class="" placeholder="Email address">
+                  <button class="padding-right bold" type="button">Sign Up</button>
+                  </div>
+                </div>
+              </div>
+          <div class="footer-content-section">
+          <div class="footer-section">
+            <h4 class="">Shop</h4>
+            <ul class="footer-link">
+              <li class=""><a href="#" class="">Women's</a></li>
+              <li class=""><a href="#" class="">Men's</a></li>
+              <li class=""><a href="#" class="">Kid's</a></li>
+              <li class=""><a href="#" class="">Shoes</a></li>
+              <li class=""><a href="#" class="">Equipment</a></li>
+              <li class=""><a href="#" class="">By Activity</a></li>
+              <li class=""><a href="#" class="">Gifts Cards</a></li>
+              <li class=""><a href="#" class="">Sale</a></li>
+            </ul>
+          </div>
+    
+          <div class="footer-section">
+            <h4 class="">Help</h4>
+            <ul class="footer-link">
+              <li class=""><a href="#" class="">Help Center</a></li>
+              <li class=""><a href="#" class="">Order Status</a></li>
+              <li class=""><a href="#" class="">Size Chart</a></li>
+              <li class=""><a href="#" class="">Returns & Warrantly</a></li>
+              <li class=""><a href="#" class="">Contact Us</a></li>
+            </ul>
+          </div>
+    
+          <div class="">
+            <h4 class="">About</h4>
+            <ul class="footer-link">
+              <li class=""><a href="#" class="">About Us</a></li>
+              <li class=""><a href="#" class="">Responsibility</a></li>
+              <li class=""><a href="#" class="">Technology & Innovation</a></li>
+              <li class=""><a href="#" class="">Explore our stories</a></li>
+            </ul>
+          </div>
+          </div>
+    
+        </div>
+    
+      </footer>
+
+      <script src="home.js"></script>
 </body>
 
 
