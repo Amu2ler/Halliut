@@ -28,63 +28,6 @@ h4{
     z-index: -1;
     }
 
-<<<<<<< HEAD
-/*NAV*/
-
-@media (min-width: 800px){
-.nav{
-    display: flex;
-    left: 10%;
-    width: 100%;
-    padding: 10px 0;
-    border-bottom: 2px solid white;
-    font-size: x-large;
-}
-
-.nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-
-.nav a {
-    text-decoration: none;
-    margin: 0 10px;
-    color: white;
-    font-weight: bold;
-}
-}
-
-#loupe{
-    width: 22px;
-}
-
-#site-search {
-    background-color: transparent;
-    border: none; 
-    color: gray;
-  }
-
-@media (max-width: 800px){
-      
-    /* Icône burger */
-.burger-icon span {
-    display: flex;
-    width: 35px;
-    height: 5px;
-    background-color: white;
-    margin: 6px 0;
-}
-    
-.nav{
-    display: none;
-}
-}
-    
-
-=======
->>>>>>> 05a07b97b190c4fa0cb2228ce791aa8f8d43dd7e
 
 /*CONTENU*/
 
@@ -147,9 +90,6 @@ h4{
     opacity: 1;
 }
 
-<<<<<<< HEAD
-/*FOOTER/
-=======
 .sponsors{
     display: flex;
     flex-wrap: wrap; /* Permet aux images de passer à la ligne lorsque l'espace est insuffisant */
@@ -460,4 +400,3 @@ width:  100%;
 }
 
 }
->>>>>>> 05a07b97b190c4fa0cb2228ce791aa8f8d43dd7e
