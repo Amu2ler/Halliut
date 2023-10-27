@@ -2,26 +2,28 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <link href="projet.css" rel="stylesheet" type="text/css">
+    <link href="../../styles/style_details.css" rel="stylesheet" type="text/css">
     <title>Halloween</title>
 </head>
 <body>
-
-    <div class="container">
-            <div class="images">
-                <img src="image12.jpg" class="m1" alt="img1">
+    <div class="container_image">
+        
+            <div id="slider">
+                <img src="../../img/image12.jpg"  alt="img1" id="slide">
+                 
             </div>
+    
         </div>
         <div class="container_texte">
-                <div><h1>Costume of Crispou</h1>
-                    <h3><strong>230 $</strong></h3><br>
-                    <p>
-                        Add our creepy suits to the basket  <br>
-                        And select your size to make    <br>
-                        Halloween night shake    <br>
-                    </p>
-                </div>
-        </div>           
+            <div>
+                <h1>Costume of Crispou</h1>
+                <h3><strong>230 $</strong></h3>
+                <p>
+                    Add our creepy suits to the basket  <br>
+                    And select your size to make    <br>
+                    Halloween night shake    <br>
+                </p>
+            </div> <br>            
             <div class="container_input">
                 <input class="qte" type="number" id="tentacles" name="tentacles"min="1" max="1000"><br>
                 <form>
@@ -36,11 +38,13 @@
                         <option value="3XL">3XL</option>
                     </select>
                 </form>
+            </div><br><br>
+        <div class="Box">
+            <div>
+                <input class="panier" type="submit" value="Add To Cart">
+                <input class="payer" type="submit" value="Buy Now">
             </div>
-            <div class="Box">
-            <input class="panier" type="submit" value="Add To Cart">
-            <input class="payer" type="submit" value="Buy Now">
-            </div>
+        </div>
     </div>
 </body>
 </html>
