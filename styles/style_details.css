@@ -18,10 +18,7 @@ body{
     width: auto;
     size: 40px;
     margin: auto;
-<<<<<<< HEAD
-=======
     
->>>>>>> c7798de5b703f2df8da8ddd2227cf
     
     
 }
@@ -32,12 +29,9 @@ body{
     border: 2px solid black;
     width: auto;
     size: 40px;
-<<<<<<< HEAD
-=======
     margin-top: 10px;
     margin: auto;
     
->>>>>>> c7798de5b7d88078231af03f2df8da8ddd2227cf
     
     
 }
@@ -58,10 +52,7 @@ body{
     size: 40px;
     padding: 15px;
     width: auto;
-<<<<<<< HEAD
-=======
     
->>>>>>> c7798de5b7d88078231af03f2df8da8ddd2227cf
     
 }
 
@@ -87,22 +78,15 @@ body{
 
 
 img{
-<<<<<<< HEAD
-    height: 420px;
-    width: 420px;     position: relative;
 
-=======
     height: 390px;
     width: 390px;
->>>>>>> c7798de5b7d88078231af03f2df8da8ddd2227cf
     border: 15px;
     
 }
 
 
 
-<<<<<<< HEAD
-=======
 .contain {
     padding: 1rem;
 }
@@ -151,7 +135,6 @@ img{
 .slider-nav a:hover {
     opacity: 1;
 }
->>>>>>> c7798de5b7d88078231af03f2df8da8ddd2227cf
 
 .container_texte{
     margin-top: 5px;
