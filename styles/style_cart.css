@@ -20,13 +20,18 @@ body {
     display: flex;
     justify-content: space-between;
     width: 75%;
-    margin-left: 250px;
 }
+
+
 
 /* top left */
 .top-left {
     flex: 1;
     margin-right: 20px;
+    margin: 10px;
+    padding: 10px;
+    border: solid black 2px;
+    box-shadow: 8px 8px 8px gray;
 }
 
 .liste-produit .image img {
@@ -37,6 +42,7 @@ body {
 .top-left .remove{
     display: flex;
     flex-direction: column-reverse;
+    cursor: pointer;
 }
 
 
@@ -45,6 +51,7 @@ body {
     flex: 1;
     padding: 20px;
     text-align: center;
+    margin-right: 30px;
 }
 .top-right .order {
     font-weight: bold;
@@ -111,9 +118,6 @@ body {
     cursor: pointer;
 }
 
-
-
-
 /* Style des produits dans le panier */
 .liste-produit {
     display: flex;
@@ -123,6 +127,12 @@ body {
 .liste-produit .image {
     flex: 1;
 }
+
+.liste-produit .image:hover{
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
+  }
 
 .liste-produit .image img {
     max-width: 250px;
@@ -148,12 +158,10 @@ h1 {
     text-align: center;
     margin: 20px 0;
 }
-
 h2 {
     font-size: 24px;
     margin: 10px 0;
 }
-
 p {
     font-size: 14px;
 }
@@ -190,8 +198,6 @@ p {
   background-color: #000;
   color: white;
 }
-
-
 .logo{
   text-decoration: none;
   display: block;
@@ -199,7 +205,6 @@ p {
   text-decoration: none;
   padding: 15px 10px;
 }
-
 
 .bold{
     font-weight: bolder;
@@ -270,10 +275,6 @@ p {
 .navbar input:focus{
     outline: none;
 }
-
-
-
-
   
 .footer button {
 	background: none;
@@ -287,9 +288,7 @@ p {
     padding: 8px 0px;
     border: none;
 
-  }
-
-
+}
 
 .footer input:focus{
     outline: none;
@@ -435,4 +434,42 @@ p {
     width: 90%;
   }
   
+}
+
+/* Styles for tablet screens (768px) */
+@media screen and (max-width: 1050px) {
+    .container {
+        margin: 10px; /* Reduce margin for tablet screens */
+    }
+
+    .top {
+        flex-direction: column; /* Change to column layout for tablet screens */
+    }
+
+    .top-left,
+    .top-right {
+        margin: 10px; /* Reduce margin for tablet screens */
+    }
+
+    .liste-produit .image img {
+        max-width: 100%; /* Make images responsive */
+        height: auto;
+    }
+}
+
+/* Styles for phone screens (425px) and smaller */
+@media screen and (max-width: 425px) {
+    .container {
+        margin: 10px; /* Reduce margin for phone screens */
+    }
+
+    .top-left .liste-produit,
+    .top-right {
+        margin: 10px; /* Reduce margin for phone screens */
+    }
+
+    .liste-produit .image img {
+        max-width: 100%; /* Make images responsive for phone screens */
+        height: auto;
+    }
 }
